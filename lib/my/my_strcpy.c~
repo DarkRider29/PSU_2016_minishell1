@@ -1,0 +1,25 @@
+/*
+** my_strcpy.c for emcas in /home/detroy_j/delivery/CPool_Day06
+** 
+** Made by jean-baptiste detroyes
+** Login   <detroy_j@epitech.net>
+** 
+** Started on  Mon Oct 10 07:52:30 2016 jean-baptiste detroyes
+** Last update Thu Dec  1 17:13:02 2016 detroy_j
+*/
+
+char	*my_strcpy(char *dest, char *src)
+{
+  int	i;
+  int	k;
+
+  i = my_strlen(src);
+  k = 0;
+  while (k < i)
+    {
+      dest[k] = src[k];
+      k++;
+    }
+  dest[k] = '\0';
+  return (dest);
+}

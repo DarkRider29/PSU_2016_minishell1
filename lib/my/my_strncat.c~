@@ -1,0 +1,14 @@
+/*
+** my_strncat.c for emcas in /home/detroy_j/delivery/lib
+** 
+** Made by jean-baptiste detroyes
+** Login   <detroy_j@epitech.net>
+** 
+** Started on  Tue Oct 11 10:57:24 2016 jean-baptiste detroyes
+** Last update Tue Oct 11 10:57:51 2016 jean-baptiste detroyes
+*/
+
+char *my_strncat(char *dest, char *src, int nb)
+{
+  return (dest);
+}
